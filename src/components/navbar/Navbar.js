@@ -101,6 +101,7 @@ const Navbar = () => {
                     <a
                       href="https://www.linkedin.com/in/mrvinay/"
                       target="_blank"
+                      rel="noreferrer noopener"
                     >
                       <FaLinkedinIn />
                     </a>

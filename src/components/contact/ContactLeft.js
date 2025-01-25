@@ -12,7 +12,9 @@ const ContactLeft = () => {
       />
       <div className="flex flex-col gap-4">
         <h3 className="text-3xl font-bold text-white">Vinay Mathangi</h3>
-        <p className="text-lg font-normal text-gray-400">React Js & React Native Developer</p>
+        <p className="text-lg font-normal text-gray-400">
+          React Js & React Native Developer
+        </p>
         <p className="text-base text-gray-400 tracking-wide">
           Passionate and skilled React.js & React Native Developer with 2 years
           of experience in designing, developing, and maintaining high-quality
@@ -39,7 +41,11 @@ const ContactLeft = () => {
             <FaTwitter />
           </span>
           <span className="bannerIcon">
-            <a href="https://www.linkedin.com/in/mrvinay/" target="_blank">
+            <a
+              href="https://www.linkedin.com/in/mrvinay/"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
               <FaLinkedinIn />
             </a>
           </span>

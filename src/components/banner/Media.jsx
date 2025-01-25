@@ -1,7 +1,6 @@
 import React from 'react'
 import { FaFacebookF, FaTwitter, FaLinkedinIn, FaReact } from "react-icons/fa";
 import {
-  SiMongodb,
   SiNextdotjs,
   SiTypescript,
   SiExpress,
@@ -20,7 +19,11 @@ const Media = () => {
             <FaTwitter />
           </span>
           <span className="bannerIcon">
-            <a href="https://www.linkedin.com/in/mrvinay/" target="_blank">
+            <a
+              href="https://www.linkedin.com/in/mrvinay/"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
               <FaLinkedinIn />
             </a>
           </span>
