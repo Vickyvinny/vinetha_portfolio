@@ -3,7 +3,7 @@ import { Link } from "react-scroll";
 import { FiMenu } from "react-icons/fi";
 import { MdClose } from "react-icons/md";
 import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
-import {logo} from "../../assets/index"
+
 import { navLinksdata } from '../../constants';
 
 const Navbar = () => {
@@ -19,13 +19,11 @@ const Navbar = () => {
         }}
       >
         <img
-          src={
-            "https://t4.ftcdn.net/jpg/06/58/17/85/360_F_658178597_NtH7jxzMPh6mRJwC6A1pqSjzzluaPfm9.jpg"
-          }
+          src={"./vinay.png"}
           alt="logo"
           style={{ width: "50px", height: "50px", borderRadius: "100%" }}
         />
-        <p> Vineetha Aredla</p>
+        <p> Vinay Mathangi</p>
       </div>
       <div>
         <ul className="hidden mdl:inline-flex items-center gap-6 lg:gap-10">
@@ -58,9 +56,7 @@ const Navbar = () => {
             <div className="flex flex-col gap-8 py-2 relative">
               <div>
                 <img
-                  src={
-                    "https://t4.ftcdn.net/jpg/06/58/17/85/360_F_658178597_NtH7jxzMPh6mRJwC6A1pqSjzzluaPfm9.jpg"
-                  }
+                  src={"./vinay.png"}
                   alt="logo"
                   style={{
                     width: "50px",
@@ -68,7 +64,7 @@ const Navbar = () => {
                     borderRadius: "100%",
                   }}
                 />
-                <p className="text-sm text-gray-400 mt-2">Vineetha Aredla</p>
+                <p className="text-sm text-gray-400 mt-2">Vinay Mathangi</p>
               </div>
               <ul className="flex flex-col gap-4">
                 {navLinksdata.map((item) => (
@@ -102,7 +98,12 @@ const Navbar = () => {
                     <FaTwitter />
                   </span>
                   <span className="bannerIcon">
-                    <FaLinkedinIn />
+                    <a
+                      href="https://www.linkedin.com/in/mrvinay/"
+                      target="_blank"
+                    >
+                      <FaLinkedinIn />
+                    </a>
                   </span>
                 </div>
               </div>

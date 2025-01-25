@@ -5,9 +5,9 @@ import Media from './Media';
 const LeftBanner = () => {
     const [text] = useTypewriter({
       words: [
-        "Full Stack .NET Developer.",
-        ".NET/ Angular Developer.",
-        ".NET / UI Developer.",
+        "FrontEnd Developer",
+        "React.js Developer",
+        "React Native Developer"
       ],
       loop: true,
       typeSpeed: 20,
@@ -20,7 +20,7 @@ const LeftBanner = () => {
         <h4 className=" text-lg font-normal">WELCOME TO MY WORLD</h4>
         <h1 className="text-6xl font-bold text-white">
           Hi, I'm{" "}
-          <span className="text-designColor capitalize">Vineetha Aredla</span>
+          <span className="text-designColor capitalize">Vinay Mathangi</span>
         </h1>
         <h2 className="text-4xl font-bold text-white">
           a <span>{text}</span>
@@ -30,11 +30,14 @@ const LeftBanner = () => {
             cursorColor="#ff014f"
           />
         </h2>
-        
+
         <p className="text-base font-bodyFont leading-6 tracking-wide">
-           Over 10 years of experience in Design,Development and Implementation
-          of Windows and Web Based applications using Microsoft .NET
-          Technologies. 
+          Passionate and skilled React.js & React Native Developer with 2 years
+          of experience in designing, developing, and maintaining high-quality
+          web & mobile applications. Proficient in JavaScript, TypeScript, and
+          Redux, with a strong understanding of RESTful APIs, asynchronous
+          programming, and performance optimization. Adept at creating
+          user-friendly and responsive interfaces to enhance user experience.
         </p>
       </div>
       {/* Media */}

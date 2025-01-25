@@ -2,95 +2,92 @@ import React from "react";
 import {motion} from "framer-motion"
 import ResumeCard from "./ResumeCard";
 const experiencePointsOne = [
-  "Involved in various stages of software development life cycle (SDLC), analysis, design, development, and maintenance.",
-  "Developed the classes using C#, which incorporate N-tier architecture and database connectivity.",
-  "Implemented ASP.NET MVC strongly typed views, partial views, and attribute routing.",
-  "Designed and developed new features for the application using C# and Microservices for the business components using .NET framework.",
-  "Migrated applications from HTTP to secure HTTPS platform which involved migration from .NET Core 1.0 to .NET Core 4.0.",
-  "Developed Microservices using .NET Core 3.0. and .NET Core 4.0.",
-  "Led the migration of various projects from .NET Framework 4.7 to .NET Core 5, and subsequently to .NET Core 6 by using Microservices enhancing performance and scalability.",
-  "Designed and developed WebAPI’s for Microservices using ASP.NET Core 6.0 and RESTful APIs for the application using .NET Core.",
-  "Developed REST APIs in .NET Core 3.1 & .NET Core 6.0.",
-  "Implemented the Rest API’s by using ASP.NET Web API 2.0.",
-  "Developed RESTful APIs and message-based communication protocols to facilitate seamless interaction between Microservices, ensuring loose coupling and scalability.",
-  "Developed web pages using ASP.NET MVC 5, Entity Framework 6, C#, HTML5, Bootstrap, CSS3, JavaScript, jQuery, Angular 14/13, SQL Server 2019, LINQ, XML and SSRS.",
-  "Implemented the data access layer using Entity Framework Code First Approach.",
-  "Utilized Entity Framework ORM and LINQ for streamlined database interactions, enhancing application performance through efficient data querying.",
-  "Enhanced event logging of public facing pages built in Angular 14 using event handlers with JavaScript, TypeScript, and Entity Framework and SQL Server databases.",
-  "Used AJAX, and JSON to post data from the client side to the database.",
-  "Used ASP.NET Web API and worked with different Http verbs such as GET, POST, PUT and DELETE and returned JSON format.",
-  "Leveraged the power of .NET CORE Web APIs to create seamless communication between the front-end and back-end.",
-  "Developed services by using Http Client Module in Angular 14 for making the API calls and inject data into the required components.",
-  "Implemented services and dependency injection in Angular 14 to connect the web application to backend APIs and sharing the code between the components.",
+  `Description:`,
+`This project involved developing an admin role within a Salon Management System, focusing on
+overseeing multiple saloon locations and managing various aspects such as user accounts,
+service categories, and performance reporting. The admin role was responsible for maintaining
+accurate data across different screens, enabling effective decision-making through
+comprehensive reporting and analytics.
+`,
+  "Roles and Responsibilities:",
+  `Worked on the admin role UI and seamlessly integrated APIs to ensure smooth data flow
+and functionality. Developed reusable tables using React components to efficiently
+showcase detailed information about shops,Categories and Users, enhancing user
+interface consistency and ease of maintenance.
+`,
+  `
+Implemented dynamic charts using libraries like recharts to visualize shop incomes and
+losses over time, providing stakeholders with insightful data analysis tools.Update and
+maintain information for each saloon location.Ensure accurate representation of
+operational details across all locations.Generate insightful reports for business analysis
+based on collected data.Present data in a meaningful way to stakeholders to facilitate
+decision-making
+`,
+  `
+Implemented responsive design principles to ensure the application is accessible and
+functional across various devices and screen sizes.
+`,
+  `
+Utilized robust error handling and implemented notification models to effectively
+communicate success and failure messages to users, improving overall system reliability
+and user satisfaction.
+`,
+  `
+
+Continuously collaborated with backend developers, designers, and stakeholders to
+iterate on UI/UX improvements and ensure alignment with project goals and user
+requirements`,
 ];
 const experiencePointsTwo = [
-  "Collaborated with cross-functional teams to define project scopes and objectives, aligning with business goals, and delivering within timelines.",
-  "Used Microservices architecture in .NET CoreWebAPI to break down the existing application into modular, independently deployable services.",
-  "Successfully developed a web application using ASP.NET MVC 5, WEB API with Angular 12.",
-  "Performed validations on Web Forms using .Net Validation Controls and Client-Side Validation using Angular 12.",
-  "Implementing scalable, maintainable, secure REST API Services using .NET Core, C#, and ASP.NET WebAPI 2.0.",
-  "Requirement gathering and Designing of upcoming modules using UML.",
-  "Created Typescript reusable components and services to consume REST API's using Component-based architecture provided by Angular 12.",
-  "Designed and developed enterprise-based applications using .NET, C#, ASP.NET, Entity Framework, LINQ, and Web Services.",
-  "Leveraged Angular 12 for application development, including making rest calls using the Http Client module and processing JSON and XML data with jQuery for components that required it.",
-  "Implemented authentication and authorization using JSON Web Tokens (JWT), ensuring secure and authenticated access to applications and APIs.",
-  "Developed a serverless solution using Azure Functions for real-time data processing and analysis.",
-  "Worked extensively on various Azure services like Key Vault for storing connection strings in secrets, Function apps, Stream Analytics jobs, Data Factories, Container instances, Container Registries, Azure Active Directory, App registrations, Service bus, Resource Groups, Subscriptions, Storage Accounts, Application Insights, and App Services.",
-  "Experienced in Angular 12 Templates, directives, Routing and navigation, Components, Services, and Data binding concepts.",
-  "Migrated SQL Server database to Azure SQL Database for better scalability, availability, and maintenance.",
-  "Developed .NET code for publishing and consuming messages using RabbitMQ.",
-  "Implemented comprehensive monitoring solutions for RabbitMQ, providing real-time insights.",
-  "Strong experience in unit testing tools of JavaScript framework like Karma, Jasmine and Protractor for Angular.",
-  "Working with configuration, customizations, and integrations with Microsoft Dynamics 365 CRM - Customer Insights.",
-  "Hands-on experience with Microsoft Dynamics CRM customization, Power BI report generation, and working with container-based deployments using Docker and Kubernetes.",
-  "Played a pivotal role in the adoption of CI/CD pipelines using Azure DevOps, streamlining the development process, and automating deployments.",
-  "Successfully implemented a complete Azure DevOps integration, automating and streamlining workflows.",
-  "Used Team Foundation Server (TFS) for the version control for check-in, branch merging and creating build definitions.",
+  `
+  Description:`,
+  `In this application, the admin plays a crucial role with additional user roles such as owner, driver
+and customer. The admin is responsible for adding buses with specific types and seat capacities,
+creating bus schedules based on routes, and assigning drivers to each bus. Moreover, the admin
+has the authority to edit bus details as needed.`,
+  `Roles and Responsibilities:
+`,
+  `Enhanced user experience by implementing interactive features such as real-time updates
+on Bus status and location using geolocation APIs.
+`,
+  `Optimized performance by implementing lazy loading and pagination for large datasets in
+the tables, ensuring faster loading times and smoother user interactions.
+`,
+  `Implemented responsive design principles to ensure the application is accessible and
+functional across various devices and screen sizes.
+`,
+  `Conducted usability testing and gathered feedback to iterate and improve the UI/UX
+design, focusing on intuitive navigation and clear presentation of information.
+`,
 ];
+
 const experiencePointsThree = [
-  "Designed Presentation layer using ASP.NET, AngularJS, Bootstrap, HTML 5, CSS3, JavaScript, jQuery and AJAX using TDD and Agile methodology.",
-  "Developed Angular 7/8 custom directives and pipes and developed core functionality with the ASP.NET MVC Framework (C#.NET).",
-  "Developed Razor views with strongly typed view models and helpers and partial views using ASP.NET Core MVC5, HTML5, CSS3, and Angular, C # and Telerik controls.",
-  "Leveraged the introduction of Web API Controllers (Web API 2) in ASP.NET MVC 5 to build, maintain.",
-  "Worked with Http protocols by using Angular 7/8 components to build Restful services.",
-  "Implemented CRUD functionality with Entity framework in ASP.NET MVC and implemented sorting, filtering, and paging with Entity framework in MVC.",
-  "Extensive experience in designing and developing UI of web applications using HTML 4/5/6, CSS3, DOM, JavaScript, jQuery, Angular 7/8, Bootstrap 3, AJAX, JSON, and XML.",
-  "Successfully implemented OAuth 2.0 mechanisms, ensuring secure user authentication and authorization.",
-  "Utilized ASP.NET input validation controls and JavaScript to perform client-side validation.",
-  "Migrated existing applications from older web technologies to single page application architecture (SPA) using modern client-side tools like React, Angular 7/8, Typescript and Web pack.",
-  "Experienced in Angular 7/8 Templates, directives, Routing and navigation, Components, Services and Data binding concepts.",
-  "Developed class libraries using VB.NET to implement the business logic and for the reusability purpose.",
-  "Experience in using ASP.NET Core4.0, AJAX framework for quickly creating efficient and interactive Web applications that work across all popular browsers.",
-  "Architected robust backend data storage and retrieval through integration of MongoDB with ASP.NET Core applications and Web Services.",
-  "Developed Email Notification System using MSMQ asynchronous model using WCF Service and .net MSMQ binding.",
-  "Conducted functional, regression, and end-to-end testing using Selenium and API testing using REST on JUnit framework.",
-  "Monitoring existing code and doing performance tuning if necessary.",
-  "Created CI/CD Pipeline using TFS and Azure DevOps.",
-  "Experience in using Source Code Control Systems like GIT.",
-];
-const jobDescription = [
-  "Used fast paced Agile Methodology, involving in task completion, iteration passing through a full development cycle using N-Tier architecture.",
-  "Employed Redux Thunks to handle asynchronous data fetching and API calls to achieve efficient state management.",
-  "Played a key role in migrating legacy codebase from AngularJS, jQuery, and Bootstrap to a modern MERN stack, with a focus on ReactJS for dynamic and user-friendly interfaces.",
-  "Worked on using ReactJS components, Forms, Events, and Router.",
-  "Experience on working with React Router for developing Single Page Applications (SPAs).",
-  "Prioritized mobile responsiveness and improved the overall user interface using ReactJS, applying modern design principles to create engaging and visually appealing applications.",
-  "Integrated React with .NET backend services, enabling seamless data flow and real-time updates between the front-end and back-end components of the application.",
-  "Conducted performance analysis and optimizations on the ReactJS components to ensure efficient rendering and a smooth user experience, particularly in scenarios with high user interaction.",
-  "Conducted thorough unit testing of React.js components using tools like Jest and Enzyme.",
-];
-const jobDescription1 = [
-  "Working in an agile environment to deliver higher-quality software far more rapidly.",
-  "Design, Developed and deployed a web application using ASP.NET that incorporates both N-Tier Architecture, and Database Connectivity.",
-  "Worked on different aspects of .NET framework like ASP.NET 5.0 and on middleware ADO.NET.",
-  "Worked on VB.Net Security features such as Forms-based Authentication and Role-based Authorization.",
-  "Used ASP.Net Web Form controls like Textbox, Button and Dropdown list controls for creating an easily accessible user interface.",
-  "Used Windows Communication Foundation (WCF) web services for creating Service end points and Service contracts for the Application and consumed the web services.",
-  "Worked on migration of VB6 to VB.NET.",
-  "Used AJAX to trade data with a Web Server without reloading the page.",
-  "Developed Stored Procedures &Triggers on SQL Server 2012 databases which are hosted on Windows sever 2012.",
-  "Used XML to send a message through MSMQ service.",
-  "Conducted comprehensive unit tests, optimized code, and maintained web applications for optimal performance.",
+  `
+  Description:`,
+  `This food delivery app provides a seamless experience for both customers and sellers. Sellers can manage product listings, promotions, and special offers, while customers enjoy easy browsing, cart management, and real-time order tracking. The app uses React Native Geolocation API to help customers find nearby restaurants, and employs FlatList for efficient data rendering, enhancing performance. With React Native Responsive Dimensions, the app adapts to various screen sizes, ensuring a consistent experience across devices. Collaborative efforts with the UI/UX team ensured the interface was user-friendly and optimized for satisfaction.`,
+  `Roles and Responsibilities:
+`,
+  `Developed a dual-role app (Customer and Seller) to manage product listings, promotions, and order tracking,
+delivering a seamless experience for both sellers and customers.
+`,
+  `Implemented comprehensive seller features, including product management, promotion creation, and special
+offers (e.g., "Today's Specials" and "Best Choices"). 
+`,
+  `Designed customer-centric features for easy browsing, cart management, and real-time order tracking,
+ensuring a smooth post-purchase experience. 
+`,
+  `Integrated React Native Geolocation API to enable location-based product discovery, allowing customers to
+find nearby restaurants. 
+`,
+  `Enhanced app performance using FlatList for efficient rendering of large data sets, improving browsing speed
+and checkout processes. 
+`,
+  `Applied React Native Responsive Dimensions to deliver an adaptive layout that ensures responsiveness across
+various screen sizes and device resolutions. 
+`,
+  `Collaborated closely with the UI/UX team to conduct usability testing, gather feedback, and refine the app
+interface for optimal user satisfaction. 
+`,
 ];
 
 const Experience = () => {
@@ -103,41 +100,35 @@ const Experience = () => {
     >
       <div>
         <div className="flex flex-col gap-4">
-          <h2 className="text-4xl font-bold">Job Experience</h2>
+          <h2 className="text-4xl font-bold underline">Job Experience:</h2>
+          <h3 className="text-2xl font-bold">
+            <i>
+              Software Engineer at<strong> Extended Web AppTech</strong>,
+              Hyderabad - (October 2023 – January 2025)
+            </i>
+          </h3>
         </div>
         <div
-          className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10 w-full overflow-auto"
-          style={{ scrollbarColor: "#ff014f #000000", scrollbarWidth: "5px" }}
+          className="mt-14 w-full h-[800px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10 w-full overflow-auto"
+          style={{ scrollbarColor: "#ff014f #000000", scrollbarWidth: "0px" }}
         >
           <ResumeCard
-            title="Full Stack .NET Developer"
-            subTitle="CVS Health, Woonsocket, RI	 - (2022 - Present)"
-            result="USA"
-            des={experiencePointsOne}
-          />
-          <ResumeCard
-            title="Full Stack .NET Developer"
-            subTitle="Fannie Mae, Reston, VA - (2020 - 2022)"
-            result="USA"
+            title="Software Developer at Extended Web App Tech	 - "
+            subTitle="Bus Booking"
+            result="INDIA"
             des={experiencePointsTwo}
           />
           <ResumeCard
-            title=".NET/ Angular Developer	"
-            subTitle="experiencePointsTwo - (2018 - 2020)"
-            result="USA"
+            title="Software Developer at Extended Web App Tech	 - "
+            subTitle="Salon Admin"
+            result="INDIA"
+            des={experiencePointsOne}
+          />
+          <ResumeCard
+            title="Software Developer at Extended Web App Tech	 - "
+            subTitle="Food Delivery Application (Android & IOS)"
+            result="INDIA"
             des={experiencePointsThree}
-          />
-          <ResumeCard
-            title=".NET / UI Developer"
-            subTitle="Verizon, Irving, TX - (2016 - 2018)"
-            result="USA"
-            des={jobDescription}
-          />
-          <ResumeCard
-            title=".NET Developer"
-            subTitle="HDFC Bank,Hyderabad - (2013 - 2015)"
-            result="USA"
-            des={jobDescription1}
           />
         </div>
       </div>

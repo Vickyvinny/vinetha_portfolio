@@ -15,13 +15,11 @@ const Footer = () => {
           }}
         >
           <img
-            src={
-              "https://t4.ftcdn.net/jpg/06/58/17/85/360_F_658178597_NtH7jxzMPh6mRJwC6A1pqSjzzluaPfm9.jpg"
-            }
+            src={"./vinay.png"}
             alt="logo"
             style={{ width: "50px", height: "50px", borderRadius: "100%" }}
           />
-          <p> Vineetha </p>
+          <p> Vinay Mathangi </p>
         </div>
         <div className="flex gap-4">
           <span className="bannerIcon">
@@ -31,7 +29,7 @@ const Footer = () => {
             <FaTwitter />
           </span>
           <span className="bannerIcon">
-            <a href="https://www.linkedin.com/in/vineetha1703/" target="_blank">
+            <a href="https://www.linkedin.com/in/mrvinay/" target="_blank">
               <FaLinkedinIn />
             </a>
           </span>

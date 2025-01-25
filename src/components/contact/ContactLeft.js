@@ -11,21 +11,22 @@ const ContactLeft = () => {
         alt="contactImg"
       />
       <div className="flex flex-col gap-4">
-        <h3 className="text-3xl font-bold text-white">Vineetha A</h3>
-        <p className="text-lg font-normal text-gray-400">
-          Sr .Net Full Stack Developer
-        </p>
+        <h3 className="text-3xl font-bold text-white">Vinay Mathangi</h3>
+        <p className="text-lg font-normal text-gray-400">React Js & React Native Developer</p>
         <p className="text-base text-gray-400 tracking-wide">
-          Full Stack .NET Developer | C# | ASP.NET MVC | SQL Server | Azure |AWS
-          | RESTful APIs | JavaScript | Entity Framework | ReactJS | Angular |
-          Blazor | MongoDB | Xamarin | Vuejs | Microsoft Dynamics CRM | Open to
-          relocate.
+          Passionate and skilled React.js & React Native Developer with 2 years
+          of experience in designing, developing, and maintaining high-quality
+          web & mobile applications. Proficient in JavaScript, TypeScript, and
+          Redux, with a strong understanding of RESTful APIs, asynchronous
+          programming, and performance optimization. Adept at creating
+          user-friendly and responsive interfaces to enhance user experience.
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
-          Phone: <span className="text-lightText">+980-395-3723 </span>
+          Phone: <span className="text-lightText">6281571886 </span>
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
-          Email: <span className="text-lightText">aredla1703@gmail.com/</span>
+          Email:
+          <span className="text-lightText">vinaymathangi30@gmail.com/</span>
         </p>
       </div>
       <div className="flex flex-col gap-4">
@@ -38,7 +39,7 @@ const ContactLeft = () => {
             <FaTwitter />
           </span>
           <span className="bannerIcon">
-            <a href="https://www.linkedin.com/in/vineetha1703/" target='_blank'>
+            <a href="https://www.linkedin.com/in/mrvinay/" target="_blank">
               <FaLinkedinIn />
             </a>
           </span>

@@ -22,21 +22,7 @@ const Contact = () => {
 
   const handleSend = (e) => {
     e.preventDefault();
-    emailjs
-      .sendForm("service_4f7yeebD", "template_x61ogha", form.current, {
-        publicKey: "1kJoNCx03Fz7oHJDU",
-      })
-      .then(
-        () => {
-          console.log("SUCCESS!");
-           setSuccessMsg(
-             `Thank you dear ${username}, Your Messages has been sent Successfully!`
-           );
-        },
-        (error) => {
-          console.log("FAILED...", error.text);
-        }
-      );
+   
     if (username === "") {
       setErrMsg("Username is required!");
     } else if (phoneNumber === "") {
@@ -49,10 +35,23 @@ const Contact = () => {
       setErrMsg("Plese give your Subject!");
     } else if (message === "") {
       setErrMsg("Message is required!");
-    } else {
-      setSuccessMsg(
-        `Thank you dear ${username}, Your Messages has been sent Successfully!`
-      );
+    }
+     else {
+       emailjs
+         .sendForm("service_galb3g9", "template_5f9o1af", form.current, {
+           publicKey: "NoiZXRrl3gdubfABN",
+         })
+         .then(
+           () => {
+             console.log("SUCCESS!");
+             setSuccessMsg(
+               `Thank you dear ${username}, Your Messages has been sent Successfully!`
+             );
+           },
+           (error) => {
+             console.log("FAILED...", error.text);
+           }
+         );
       setErrMsg("");
       setUsername("");
       setPhoneNumber("");
@@ -62,10 +61,7 @@ const Contact = () => {
     }
   };
   return (
-    <section
-      id="contact"
-      className="w-full py-20  border-b-black"
-    >
+    <section id="contact" className="w-full py-20  border-b-black">
       <div className="flex justify-center items-center text-center">
         <Title title="CONTACT" des="Contact With Me" />
       </div>
@@ -115,6 +111,7 @@ const Contact = () => {
                       "outline-designColor"
                     } contactInput`}
                     type="text"
+                    name="user_mobile"
                   />
                 </div>
               </div>
@@ -164,7 +161,7 @@ const Contact = () => {
               </div>
               <div className="w-full">
                 <button
-                type='submit'
+                  type="submit"
                   onClick={handleSend}
                   className="w-full h-12 bg-[#141518] rounded-lg text-base text-gray-400 tracking-wider uppercase hover:text-white duration-300 hover:border-[1px] hover:border-designColor border-transparent"
                 >

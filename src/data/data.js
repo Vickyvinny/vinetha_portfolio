@@ -1,11 +1,19 @@
 import { AiFillAppstore } from "react-icons/ai";
 import { FaMobile, FaGlobe} from "react-icons/fa";
-import { SiProgress, SiAntdesign ,SiMicrosoftazure } from "react-icons/si";
-import { FaAngular } from "react-icons/fa";
+import {
+  SiProgress,
+  SiAntdesign,
+  SiMicrosoftazure,
+  SiTypescript,
+  SiExpress,
+} from "react-icons/si";
+import { IoLogoJavascript } from "react-icons/io";
+import { GrReactjs } from "react-icons/gr";
 import { BiLibrary } from "react-icons/bi";
-import { DiJavascript } from "react-icons/di";
-
+import { DiNodejs } from "react-icons/di";
 import { FaAws } from "react-icons/fa";
+import { SiTestinglibrary } from "react-icons/si";
+import { FaGithub } from "react-icons/fa";
 export const featuresData = [
   {
     id: 1,
@@ -42,38 +50,53 @@ export const featuresData = [
 export const languagesdata = [
   {
     id: 1,
-    icon: <AiFillAppstore />,
-    title: "C, C#",
+    icon: <IoLogoJavascript />,
+    title: "Javascript",
   },
   {
     id: 2,
-    icon: <SiProgress />,
-    title: "VB.NET, VB6.0, VB script",
+    icon: <SiTypescript />,
+    title: "Typescript",
   },
   {
     id: 3,
     icon: <FaMobile />,
-    title: "HTML, CSS, Bootstrap",
+    title: "HTML, CSS, Bootstrap,Tailwindcss",
   },
   {
     id: 4,
-    icon: <BiLibrary />,
-    title: "Reactjs, jQuery, AJAX",
+    icon: <GrReactjs />,
+    title: "React js, React Native",
   },
   {
     id: 5,
-    icon: <FaAngular />,
-    title: "Angular JS, Angular 2/4/5",
+    icon: "MUI",
+    title: "MUI",
   },
   {
     id: 6,
-    icon: <DiJavascript />,
-    title: "JavaScript, Type Script, Express.js, Node JS",
+    icon: <SiExpress />,
+    title: "Express.js",
   },
   {
     id: 7,
-    icon: <FaMobile />,
-    title: "Gulp JS, Ext JS, Rest. JS",
+    icon: <DiNodejs />,
+    title: "Node.js",
+  },
+  {
+    id: 8,
+    icon: <SiProgress />,
+    title: "MySQL, MongoDB",
+  },
+  {
+    id: 9,
+    icon: <SiTestinglibrary />,
+    title: "Jest, React testing library",
+  },
+  {
+    id: 10,
+    icon: <FaGithub />,
+    title: "Git, GitHub, Bitbucket",
   },
 ];
 
